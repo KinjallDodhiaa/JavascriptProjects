@@ -1,0 +1,64 @@
+:root {
+  font-size: 62.5%;
+  --header-color: #ffd700;
+}
+
+body {
+  margin: 0;
+  font-family: "Robot", sans-serif;
+}
+
+header {
+  background-color: var(--header-color);
+  padding: 3rem;
+  text-align: center;
+}
+
+header h1 {
+  color: #04083c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.main-container {
+  width: 60%;
+  margin: 5rem auto;
+}
+
+input {
+  padding: 0.6rem;
+}
+
+button {
+  font-size: 1.6rem;
+  line-height: 1.75;
+  padding: 0 3rem;
+  background-color: #00a02c;
+  color: white;
+}
+
+.border-radius {
+  border-radius: 1rem;
+  border: 1px solid #00a02c;
+}
+
+#colorSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colorBox {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  justify-content: space-between;
+  border: 1ps solid gainsboro;
+  margin: 3rem;
+}
+
+.colorNameClose {
+  font-size: 2rem;
+  color: black;
+  margin: 5px;
+}
